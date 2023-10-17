@@ -93,8 +93,8 @@ def main():
     parser = argparse.ArgumentParser(description='Sort files on desktop based on their file type.')
     parser.add_argument('file_type', type=str, help='file type to sort')
     parser.add_argument('source_destination', type=str, help='destination folder to move the files to')
-    parser.add_argument('source_file', type=str, help='source folder to sort the files from')
-    parser.add_argument('auto_sort', type=bool, help='whether to automatically sort files based on their extension')
+    parser.add_argument('source_file', nargs='?', default='Downloads', type=str, help='source folder to sort the files from')
+    parser.add_argument('auto_sort', nargs='?', default=True, type=bool, help='whether to automatically sort files based on their extension')
     args = parser.parse_args()
     
     # Create an event handler and an observer to monitor the specified folder
