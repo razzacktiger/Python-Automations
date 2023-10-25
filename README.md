@@ -22,7 +22,7 @@ I create Python scripts to benifit myself and others as well as learn on the pro
 This script allows you to sort files on your desktop based on their file type. It can be used on macOS, Windows, and Linux with minor changes.
 
 ### Running the program
-+ To run the program cd into the directory `/python-scripts/automation/fodler-management/`
++ To run the program cd into the directory `/python-scripts/automation/folder-management/`
   + run the following command: `python3 organize.py [file_type] [file_destination] [source_file] [auto_sort]`
   + `file_type` is the file extension such as ".png" and is of type string.
   + `file_destination` is the file destination folder that the user specifies
