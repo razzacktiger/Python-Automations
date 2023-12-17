@@ -12,7 +12,7 @@ I create Python scripts to benifit myself and others as well as learn on the pro
 3. Open a terminal or command prompt and navigate to the directory where you have cloned or downloaded the repository.
 
 4. Install the required dependencies by running the following command:
-    `pip install requiremnts.txt`
+    `pip install requirments.txt`
 
 
 ## Automations 
