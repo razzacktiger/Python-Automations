@@ -1,5 +1,5 @@
 # What File-Management Does
-file-Management manages your files on MacOS to download from the web and organize seemlessly. It is currently in it's early development stages and is proof of concept. 
+File-Management manages your files on MacOS to download from the web and organize seemlessly. It is currently in it's early development stages and is proof of concept. 
 
 ## Organize.py
   With the help of this script, you can sort your files on your desktop based on their file type. 
